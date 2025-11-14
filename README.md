@@ -1,27 +1,3 @@
-## 💻 1. Subir o Projeto (Galaxy Hopper)
-
-Você já está craque no fluxo, e como estamos assumindo que você está dentro da pasta `Galaxy-hopper` e com seus arquivos *commitados* (salvos localmente), é só conectar ao novo *remote* e mandar ver no `push` pro `master`\!
-
-**No seu terminal, faça isso:**
-
-```bash
-# 🛑 Conecta o seu repositório local ao link do Galaxy Hopper no GitHub 
-git remote add origin https://github.com/KarolNutty/Galaxy-hopper.git
-
-# Manda o código para o branch master, definindo ele como o padrão (upstream)
-git push -u origin master
-```
-
------
-
-## 📝 2. O README Estelar (Lindo e Explicativo)
-
-Eu tentei dar aquela olhada no link para deixar o README perfeito, mas ele ainda está na vibe "chegando". Mas, com base no nome, ele vai ser um **hit**\!
-
-Aqui está o seu novo README, super *aesthetic* e pronto para brilhar\!
-
------
-
 # 🚀 Galaxy Hopper: Seu Passaporte para a Exploração Cósmica\! 🌠
 
 ## 🌌 O Salto Quântico\! (Vibe do Projeto)
