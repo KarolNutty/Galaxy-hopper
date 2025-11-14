@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Galaxy Hopper - Pinguim Espacial</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Galaxy Hopper 🐧✨</h1>
+    <div class="hud">
+      <span id="level">Nível: 1</span>
+      <span id="score">Pontos: 0</span>
+      <span id="lives">Vidas: 3</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <canvas id="game" width="900" height="500"></canvas>
+    <div class="controls">
+      <button id="start">Começar</button>
+      <button id="mute">🔈</button>
+    </div>
+    <div id="message" class="hidden"></div>
+  </main>
+
+<script src="game.js"></script>
+</body>
+</html>

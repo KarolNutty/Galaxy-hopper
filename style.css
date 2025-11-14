@@ -1,0 +1,15 @@
+
+:root{ --bg1:#001021; --bg2:#071a2a; --accent:#ffd166; --muted:#9fb8c9; --card:#071f2f;}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial;margin:0;padding:0}
+body{background:linear-gradient(180deg,var(--bg1),var(--bg2));color:#e6f6ff;min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:18px;padding:18px}
+.topbar{width:100%;max-width:980px;display:flex;justify-content:space-between;align-items:center}
+.topbar h1{font-size:20px;color:var(--accent);margin-left:6px}
+.hud{display:flex;gap:12px;color:var(--muted);font-weight:600}
+.wrap{width:100%;max-width:980px;display:flex;flex-direction:column;align-items:center;gap:12px}
+canvas{border-radius:12px;width:100%;max-width:900px;background:transparent;display:block;box-shadow:0 10px 30px rgba(2,8,23,0.7)}
+.controls{display:flex;gap:12px;align-items:center;margin-top:8px}
+button{background:var(--accent);border:none;padding:8px 14px;border-radius:8px;color:#042333;font-weight:700;cursor:pointer}
+#mute{background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.04)}
+#message{margin-top:12px;padding:12px 14px;background:rgba(255,255,255,0.03);border-radius:10px}
+.hidden{display:none}
+@media(max-width:640px){canvas{height:320px} .topbar h1{font-size:18px}}
